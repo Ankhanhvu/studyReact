@@ -1,0 +1,21 @@
+install github in the project: git init
+    - untracked files
+    - unstaged files
+    - staged files
+    - committed files
+Check status of the project: git status
+Adding files to github: git add tenFile. Ex: git add src/App3.js // git add.
+Check who modify files: git log
+To exclude any files in github: add that file to file gitignore
+git commit -m "message": push all files to ready state
+
+dky chu ky so: go in terminal: ssh-keygen -t rsa -b 4096 -C "ank.vu11@gmail.com"
+check lai: ls -a~/.ssh
+eval "$(ssh-agent -s)"
+
+
+lay public key: pbcopy < ~/.ssh/id_rsa.pub
+
+Connect project with github: ssh -T git@github.com
+git remote add origin https://github.com/Ankhanhvu/studyReact.git
+git push -u origin master
